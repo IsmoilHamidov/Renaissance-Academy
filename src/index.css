@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.HoverText{
+  transition: .2s ease-in-out;
+}
+.HoverText:hover{
+  color: #2189FF;
+}
+
+.HoverBox{
+  transition: .2s ease-in-out;
+}
+.HoverBox:hover{
+  background-color: #2189FF;
+  color: #EAF4FF;
+
+}
+.HoverBox:hover img {
+  filter: brightness(0) invert(1) contrast(200%); 
+}
+
+.HoverButton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #1067cc;
+  transition: width 0.4s ease-in-out;
+  z-index: 0; 
+}
+.HoverButton:hover::before {
+  width: 100%; 
+}
