@@ -30,7 +30,7 @@ function AboutUs() {
                 <div className='hidden lg:block'>
                     <img src={Frame1} className='w-full h-[28rem] mb-7' alt="about_img" />
                 </div>
-                <div data-aos="lg:fade-left"
+                <div data-aos="fade-left"
                 className='bg-[#D8DBFB] md:h-[16rem] lg:h-auto p-8 lg:pb-16  rounded-[40px]'>
                     <img src={star} alt="like" />
                     <p className=' lg:w-8/12 text-[1.3rem] leading-8
