@@ -29,7 +29,7 @@ function Course() {
                 ))}
             </div>
 
-            <div className='w-full lg:w-[22%] h-auto flex flex-col md:flex-row flex-wrap gap-y-6 lg:gap-y-0 justify-center items-center md:justify-between'> 
+            <div className='w-full lg:w-[22%] h-auto flex flex-col md:flex-row lg:flex-col flex-wrap gap-y-6 lg:gap-y-0 justify-center items-center lg:justify-between'> 
                 <div data-aos="zoom-in-left" className='h-[15.5rem] lg:h-[20.2rem] w-11/12 md:w-1/2 lg:w-full relative rounded-[45px] overflow-hidden'>  
                     <img src={course_img5} alt='image' className="w-full h-full object-cover"/>
                     <div className=" absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-7">
