@@ -22,7 +22,7 @@ function Navbar() {
         <nav className="w-full">
           <div className="mx-auto max-w-7xl px-5 xl:px-0 ">
               <div className="relative flex  items-center justify-between">
-                    <div className=" w-full md:w-1/2 lg:w-9/12 flex justify-between items-center xl:items-center  ">
+                    <div className=" w-full md:w-1/2 lg:w-2/6 flex justify-between items-center xl:items-center  ">
                           <div className="flex flex-shrink-0 items-center">
                               <img className="h-32 w-28" src={logo} alt="logo"/>
                           </div>
@@ -31,7 +31,7 @@ function Navbar() {
                                 Kurslar
                                 <img src={book} className='w-5 h-5 ' alt="book" />
                           </a>
-                          <div className="flex md:hidden relative lg:inline-block me-7">
+                          <div className="flex md:hidden relative  me-7">
                                 <button onClick={toggleDropdown} className="flex justify-center items-center gap-x-1 px-4 h-12 py-2  border-[3px]
                                   border-light-blue text-dark-blue rounded-2xl  focus:border-dark-blue ease-in duration-300">
                                   {selected}
