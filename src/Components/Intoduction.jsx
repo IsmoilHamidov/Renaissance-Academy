@@ -29,7 +29,7 @@ function Intoduction() {
         </div>
 
 
-        <div className='hidden w-full lg:flex justify-end mt-6 gap-x-4'>
+        <div className='hidden w-full md:flex justify-end mt-6 gap-x-4'>
             {Array.from({ length: 3 }, (_, index) => (
                 <button
                     key={index}
