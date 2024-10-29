@@ -35,9 +35,9 @@ function Course() {
                     <div className=" absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-7">
                         <p className="text-white text-2xl font-semibold tracking-[1px] leading-[1.9rem]">Marketing</p>
                         <a href='#' className="w-full mb-1 mt-4 md:w-[8.2rem] inline-flex justify-center items-center
-                         gap-2 py-[5px] lg:py-[9px] bg-dark-blue text-white rounded-xl text-base md:text-sm group hover:bg-[#1067cc] ease-in duration-150 ">
+                         gap-2 py-[5px] lg:py-[9px] bg-dark-blue text-white rounded-xl text-base md:text-sm group hover:bg-[#1067cc] ease-in duration-300 ">
                             Batafsil 
-                            <img className='hidden md:block transition-transform transform duration-200 ease-out group-hover:translate-x-1' src={arrowRight} alt="" />
+                            <img className='hidden md:block transition-transform transform duration-300 ease-out group-hover:translate-x-2' src={arrowRight} alt="" />
                         </a>
                     </div>
                 </div>
