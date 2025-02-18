@@ -1,23 +1,22 @@
-
 export const question = [
     {
-        question: "Farobiy IT Academy bu nima?",
-        answer: "Farobiy IT Academy - bu IT sohasida bilim beruvchi o'quv markaz."
+        question: "What is Renaissance Academy?",
+        answer: "Renaissance Academy is an educational center that provides knowledge in the different modern fields."
     },
     {
-        question: "Farobiy IT Academy a'zoligimga nimalar kiradi?",
-        answer: "A'zolikka qo'shimcha kurslar va materiallar kiradi."
+        question: "What does my membership to Renaissance Academy include?",
+        answer: "Membership includes additional courses and materials."
     },
     {
-        question: "Farobiy IT Academy dan nimani o'rganishim mumkin?",
-        answer: "Dasturlash, dizayn, marketing va boshqa IT sohalarini o'rganish mumkin."
+        question: "What can I learn at Renaissance Academy?",
+        answer: "You can learn programming, design, marketing, and other IT fields."
     },
     {
-        question: "Sinovim tugagandan keyin nima bo'ladi?",
-        answer: "Sinov tugagach, natijalaringiz asosida kursga qabul qilinasiz."
+        question: "What happens after my trial ends?",
+        answer: "After the trial ends, you will be admitted to the course based on your results."
     },
     {
-        question: "Farobiy IT Academy da dars bera olamanmi?",
-        answer: "Ha, agar malakali mutaxassis bo'lsangiz, siz dars bera olasiz."
+        question: "Can I teach at Renaissance Academy?",
+        answer: "Yes, if you are a qualified specialist, you can teach."
     }
-];
+]

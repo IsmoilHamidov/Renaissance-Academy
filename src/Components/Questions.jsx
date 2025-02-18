@@ -6,19 +6,19 @@ export default function Questions() {
 
     const toggleQuestion = (index) => {
         if (openQuestionIndex === index) {
-            setOpenQuestionIndex(null); 
+            setOpenQuestionIndex(null);
         } else {
-            setOpenQuestionIndex(index); 
+            setOpenQuestionIndex(index);
         }
     };
 
     return (
-        <div className='mt-20 w-full'>
-            <h3 className="text-2xl font-semibold leading-normal text-gray-800 mb-8 ">
-                Ko'p so'raladigan savollar
+        <div className='mt-20 w-full' id='FAQ'>
+            <h3 className="text-2xl font-semibold leading-normal text-gray-800 mb-8">
+                Frequently Asked Questions
             </h3>
             {question.map((item, index) => (
-                <div key={index} className="w-full  my-5 py-7  px-8 bg-[#F4F4F4] rounded-[40px] transition-all">
+                <div key={index} className="w-full my-5 py-7 px-8 bg-[#F4F4F4] rounded-[40px] transition-all">
                     <div onClick={() => toggleQuestion(index)} className="flex justify-between items-center cursor-pointer">
                         <h4 className="w-9/12 lg:w-11/12 text-[1.2rem] md:text-xl font-medium text-lighter-black">
                             {item.question}
@@ -35,6 +35,5 @@ export default function Questions() {
                 </div>
             ))}
         </div>
-
     );
 }
