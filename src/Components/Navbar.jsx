@@ -30,7 +30,7 @@ function Navbar() {
               Courses
               <img src={book} className='w-5 h-5' alt="book" />
             </a>
-            <div className="flex md:hidden relative me-7">
+            {/* <div className="flex md:hidden relative me-7">
               <button onClick={toggleDropdown} className="flex justify-center items-center gap-x-1 px-4 h-12 py-2 border-[3px] border-light-blue text-dark-blue rounded-2xl focus:border-dark-blue ease-in duration-300">
                 {selected}
                 <AiOutlineDown className={`transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`} />
@@ -44,7 +44,7 @@ function Navbar() {
                   ))}
                 </ul>
               )}
-            </div>
+            </div> */}
           </div>
 
           <div className="hidden text-[1.063rem] w-11/12 md:flex items-center justify-end gap-x-8">
@@ -81,7 +81,7 @@ function Navbar() {
           <a href="#Course" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Courses</a>
           <a href="#Teachers" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Our Teachers</a>
           <a href="#AboutUs" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About Us</a>
-          <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Call Us</a>
+          <a href="tel:+993290348" target='_blank' className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Call Us</a>
         </div>
       </div>
     </nav>
