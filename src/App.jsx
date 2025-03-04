@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import "./Store/i18n";
 import { useTranslation } from "react-i18next";
 import Loader from "./Components/Loader";
+import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
   const [loading, setLoading] = useState(true); // State to control loader visibility
@@ -41,6 +42,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/eachCourse/:id" element={<EachCourse />} />
+              <Route path="*" element={<NotFound />} /> 
             </Routes>
           </div>
           <Footer/>
