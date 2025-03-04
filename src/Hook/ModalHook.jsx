@@ -9,9 +9,11 @@ function Modal({ isOpen, onClose }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitted(true); 
+
     setTimeout(() => {
-      window.location.reload();
-    }, 2500);
+      window.location.href = '/'; 
+      window.location.reload(); 
+    }, 2000); 
   };
 
   return (

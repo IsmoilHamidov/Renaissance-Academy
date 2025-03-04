@@ -10,6 +10,7 @@ import "./Store/i18n";
 import { useTranslation } from "react-i18next";
 import Loader from "./Components/Loader";
 import NotFound from "./Components/NotFound/NotFound";
+import ScrollManager from "./Components/ScrollSaving/ScrollManager";
 
 function App() {
   const [loading, setLoading] = useState(true); // State to control loader visibility
@@ -38,6 +39,7 @@ function App() {
       ) : (
         <>
           <Navbar />
+          <ScrollManager />
           <div className="max-w-7xl m-auto px-5 md:px-6 xl:px-0">
             <Routes>
               <Route path="/" element={<Home />} />
