@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Courses } from "../constants/course";
 import Modal from "../Hook/ModalHook";
@@ -15,7 +15,11 @@ function EachCourse() {
         </h2>
       );
     }
-  
+
+    useEffect(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+
     const handleOpenModal = () => {
       setIsModalOpen(true);
     };
@@ -25,7 +29,7 @@ function EachCourse() {
     };
   
     return (
-      <div className="min-h-screen p-6">
+      <div className="min-h-screen p-6 px-0">
         <div className="w-full max-w-7xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden">
           <div className="w-full">
             <img
@@ -35,11 +39,11 @@ function EachCourse() {
             />
           </div>
   
-          <div className="p-8">
-            <h1 className="text-4xl font-bold text-gray-800 mb-6">{course.text}</h1>
+          <div className="p-8 pt-10">
+            <h1 className="text-4xl font-bold text-gray-800 mb-10">{course.text}</h1>
             <p className="text-lg text-gray-600 mb-10 leading-relaxed">{course.description}</p>
   
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-[40%_55%]  content-between justify-between">
               <div>
                 <div className="mb-10">
                   <h2 className="text-xl font-semibold text-gray-800 mb-5">
@@ -58,27 +62,39 @@ function EachCourse() {
                   </div>
                 </div>
   
-                <div className="mb-5">
-                  <h2 className="text-xl font-semibold text-gray-800 mb-2">📆 Duration:</h2>
-                  <p className="text-gray-600">{course.duration}</p>
-                </div>
   
-                <div className="mb-6">
-                  <h2 className="text-xl font-semibold text-gray-800 mb-2">⭐ Rating:</h2>
-                  <p className="text-gray-600">
+                <div className="mb-8">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-3">⭐ Rating:</h2>
+                  <p className="text-gray-600  text-lg">
                     {course.rating} ({course.reviews} reviews)
                   </p>
                 </div>
   
+                <div className="mb-7">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-3">📆 Duration:</h2>
+                  <p className="text-gray-600  text-lg">{course.duration}</p>
+                </div>
+
+                <div className="mb-7">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-3">⏳ Schedule:</h2>
+                  <p className="text-gray-600  text-lg">{course.schedule}</p>
+                </div>
+
+                <div className="mb-7">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-3">🌍 Language:</h2>
+                  <p className="text-gray-600  text-lg">{course.language}</p>
+                </div>
+
+
                 {/* Price Section */}
-                <div className="mb-6">
-                  <h2 className="text-xl font-semibold text-gray-800 mb-2">💰 Price:</h2>
-                  <p className="text-gray-600">{course.price}</p>
+                <div className="mb-7">
+                  <h2 className="text-xl font-semibold text-gray-800 mb-3">💰 Price:</h2>
+                  <p className="text-gray-600 text-xl">{course.price}</p>
                 </div>
               </div>
   
               <div>
-                <div className="mb-6">
+                <div className="mb-8">
                   <h2 className="text-xl font-semibold text-gray-800 mb-2">🔑 Key Features:</h2>
                   <ul className="list-disc list-inside space-y-2 text-gray-600">
                     {course.keyFeatures.map((feature, index) => (
@@ -98,10 +114,10 @@ function EachCourse() {
               </div>
             </div>
   
-            <div className="mt-8">
+            <div className="mt-8 flex justify-center lg:justify-start">
               <button
                 onClick={handleOpenModal}
-                className="w-full lg:w-auto bg-gradient-to-r from-blue-500 to-blue-700 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-blue-600 transition duration-300"
+                className="w-full sm:w-1/2 lg:w-auto bg-gradient-to-r from-blue-500 to-blue-700 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-blue-600 transition duration-300"
               >
                 Enroll in the Course
               </button>

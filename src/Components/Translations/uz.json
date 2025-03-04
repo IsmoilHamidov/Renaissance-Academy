@@ -1,0 +1,213 @@
+{
+    "academy": {
+      "name": "Renaissance Akademiyasi",
+      "description": "Zamonaviy ko'nikmalar bilan o'z potensialingizni oching va karyerangizni ishonch bilan boshlang.",
+      "contact": {
+        "phone": "+998 993290348",
+        "email": "Info@RenaissanceAcademy.com",
+        "address": "Toshkent shahri, Yunusobod tumani, Amir Temur ko'chasi 129B"
+      },
+      "social_media": {
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "telegram": "Telegram",
+        "instagram": "Instagram"
+      }
+    },
+    "courses": [
+      {
+        "id": 1,
+        "name": "Dasturlash",
+        "description": "HTML, CSS, JavaScript, React va Node.js kabi asosiy texnologiyalar bilan front-end va back-end dasturlashni o'rganing.",
+        "duration": "6 oy",
+        "instructor": {
+          "name": "Ivanov Nikolay",
+          "bio": "10 yillik tajribaga ega dasturchi va mentor."
+        },
+        "rating": 4.8,
+        "reviews": 120,
+        "price": "$700",
+        "process": [
+          "HTML va CSS asoslari",
+          "JavaScript va ES6+ asoslari",
+          "Front-end (React, Tailwind CSS)",
+          "Back-end (Node.js, Express, MongoDB)",
+          "Loyiha yaratish va GitHub bilan ishlash"
+        ],
+        "keyFeatures": [
+          "Haqiqiy loyihalar bilan amaliy mashg'ulotlar",
+          "Mentorlar bilan shaxsiy maslahatlar",
+          "Sertifikat va karyera yordami"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Dizayn",
+        "description": "Photoshop, Figma va Illustrator kabi asboblar yordamida grafik dizayn va UI/UX dizayn asoslarini o'rganing.",
+        "duration": "4 oy",
+        "instructor": {
+          "name": "Kamilova Nargiza",
+          "bio": "Taniqli grafik dizayner va UI/UX mutaxassisi."
+        },
+        "rating": 4.7,
+        "reviews": 95,
+        "price": "$499",
+        "process": [
+          "Grafik dizayn asoslari",
+          "Photoshop va Illustrator bilan amaliy mashg'ulotlar",
+          "UI/UX dizayn tamoyillari",
+          "Figma yordamida dizaynlar yaratish",
+          "Interaktiv prototiplar va testlash"
+        ],
+        "keyFeatures": [
+          "Dizayn portfelini yaratish",
+          "Haqiqiy mijozlar bilan ishlash",
+          "Sertifikat va karyera yordami"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Logistika Brokerligi",
+        "description": "Yuk tashish va transport tizimlari bo'yicha logistika brokerligi bo'yicha nazariy va amaliy bilimlarni o'rganing.",
+        "duration": "5 oy",
+        "instructor": {
+          "name": "Jorayev Akbar",
+          "bio": "Logistika sohasida 15 yillik tajribaga ega mutaxassis."
+        },
+        "rating": 4.6,
+        "reviews": 80,
+        "price": "$550",
+        "process": [
+          "Logistika va transport asoslari",
+          "Broker sifatida ishlash tamoyillari",
+          "Xalqaro yuk tashish tizimlari",
+          "Hujjatlar va shartnomalar",
+          "Amaliy ish va sertifikatlash"
+        ],
+        "keyFeatures": [
+          "Xalqaro logistika tizimlarini o'rganish",
+          "Amaliy mashg'ulotlar va sertifikatlash",
+          "Karyera yordami"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Video Montaj va Maxsus Effektlar",
+        "description": "Adobe Premiere Pro va After Effects kabi asboblar yordamida video montaj, maxsus effektlar va animatsiyani o'rganing.",
+        "duration": "6 oy",
+        "instructor": {
+          "name": "Smirnova Nadya",
+          "bio": "Professional video montajchi va animator."
+        },
+        "rating": 4.9,
+        "reviews": 150,
+        "price": "$580",
+        "process": [
+          "Video montaj va kadrlar kompozitsiyasi",
+          "Adobe Premiere Pro bilan ishlash",
+          "After Effects va vizual effektlar",
+          "Rang tuzatish va ovoz dizayni",
+          "Professional montaj loyihasi yaratish"
+        ],
+        "keyFeatures": [
+          "Professional loyihalar ustida ishlash",
+          "Sertifikat va karyera yordami",
+          "Mentorlar bilan shaxsiy maslahatlar"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Marketing",
+        "description": "SEO, SEM va ijtimoiy media marketing kabi raqamli marketing asoslarini o'rganing.",
+        "duration": "4 oy",
+        "instructor": {
+          "name": "Andrey Kuznetsov",
+          "bio": "10 yillik tajribaga ega marketing mutaxassisi."
+        },
+        "rating": 4.9,
+        "reviews": 100,
+        "price": "$500",
+        "process": [
+          "Raqamli marketing asoslari",
+          "SEO va SEM",
+          "Ijtimoiy media marketing",
+          "Email marketing strategiyalari",
+          "Marketing texnologiyalari va asboblari"
+        ],
+        "keyFeatures": [
+          "Amaliy mashg'ulotlar orqali o'rganish",
+          "Marketing sohasida karyera yordami",
+          "Sertifikat olish"
+        ]
+      }
+    ],
+    "teachers": [
+      {
+        "name": "Ivanov Nikolay",
+        "title": "Dasturlash O'qituvchisi",
+        "job_icon": "Dasturlash.png"
+      },
+      {
+        "name": "Kamilova Nargiza",
+        "title": "Dizayn O'qituvchisi",
+        "job_icon": "Dizayn.png"
+      },
+      {
+        "name": "Jorayev Akbar",
+        "title": "Logistika O'qituvchisi",
+        "job_icon": "Logistika.png"
+      },
+      {
+        "name": "Daniil Andrev",
+        "title": "Marketing O'qituvchisi",
+        "job_icon": "Marketing.png"
+      },
+      {
+        "name": "Smirnova Nadya",
+        "title": "Video Montaj O'qituvchisi",
+        "job_icon": "Dizayn2.png"
+      },
+      {
+        "name": "Andrey Kuznetsov",
+        "title": "Marketing O'qituvchisi",
+        "job_icon": "Marketing.png"
+      },
+      {
+        "name": "Dimitri Grichka",
+        "title": "Marketing O'qituvchisi",
+        "job_icon": "Dasturlash.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Renaissance Akademiyasi nima?",
+        "answer": "Zamonaviy sohalarda bilim beruvchi o'quv markazi."
+      },
+      {
+        "question": "A'zoligim nimalarni o'z ichiga oladi?",
+        "answer": "Qo'shimcha kurslar va materiallar."
+      },
+      {
+        "question": "Renaissance Akademiyasida nimalarni o'rganishim mumkin?",
+        "answer": "Dasturlash, dizayn, marketing va boshqa IT sohalarini o'rganishingiz mumkin."
+      },
+      {
+        "question": "Sinov muddati tugagach nima bo'ladi?",
+        "answer": "Natijalaringizga ko'ra kursga qabul qilinasiz."
+      },
+      {
+        "question": "Renaissance Akademiyasida dars bera olamanmi?",
+        "answer": "Ha, agar siz malakali mutaxassis bo'lsangiz."
+      }
+    ],
+    "form": {
+      "title": "Biz sizga tanlashda yordam beramiz!",
+      "description": "Agar kurslar haqida savollaringiz bo'lsa yoki nima tanlashni bilmasangiz, telefon raqamingizni qoldiring - biz barcha savollaringizga javob beramiz.",
+      "fields": [
+        { "name": "Ismingiz" },
+        { "name": "Telefon raqamingiz", "prefix": "+998" },
+        { "name": "Elektron pochtangiz" }
+      ],
+      "submit": "Yuborish"
+    }
+  }

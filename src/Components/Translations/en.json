@@ -1,0 +1,213 @@
+{
+    "academy": {
+      "name": "Renaissance Academy",
+      "description": "Unlock your potential with modern skills and launch your career with confidence.",
+      "contact": {
+        "phone": "+998 993290348",
+        "email": "Info@RenaissanceAcademy.com",
+        "address": "Tashkent city, Yunusabad district, Amir Temur Street 129B"
+      },
+      "social_media": {
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "telegram": "Telegram",
+        "instagram": "Instagram"
+      }
+    },
+    "courses": [
+      {
+        "id": 1,
+        "name": "Programming",
+        "description": "Learn front-end and back-end programming with essential technologies.",
+        "duration": "6 months",
+        "instructor": {
+          "name": "Ivanov Nikolai",
+          "bio": "A developer and mentor with 10 years of experience."
+        },
+        "rating": 4.8,
+        "reviews": 120,
+        "price": "$700",
+        "process": [
+          "Basic HTML and CSS",
+          "JavaScript fundamentals and ES6+",
+          "Front-end (React, Tailwind CSS)",
+          "Back-end (Node.js, Express, MongoDB)",
+          "Project creation and working with GitHub"
+        ],
+        "keyFeatures": [
+          "Hands-on practice with real projects",
+          "Personal consultations with mentors",
+          "Certificate and career assistance"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Design",
+        "description": "Fundamentals of graphic design and UI/UX using Photoshop, Figma, and Illustrator.",
+        "duration": "4 months",
+        "instructor": {
+          "name": "Kamilova Nargiza",
+          "bio": "A renowned graphic designer and UI/UX specialist."
+        },
+        "rating": 4.7,
+        "reviews": 95,
+        "price": "$499",
+        "process": [
+          "Fundamentals of graphic design",
+          "Hands-on practice with Photoshop and Illustrator",
+          "UI/UX design principles",
+          "Creating designs with Figma",
+          "Interactive prototyping and testing"
+        ],
+        "keyFeatures": [
+          "Creating a design portfolio",
+          "Working with real clients",
+          "Certificate and career assistance"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Logistics Brokerage",
+        "description": "Learn theoretical and practical knowledge in logistics brokerage.",
+        "duration": "5 months",
+        "instructor": {
+          "name": "Jorayev Akbar",
+          "bio": "A specialist with 15 years of experience in the logistics field."
+        },
+        "rating": 4.6,
+        "reviews": 80,
+        "price": "$550",
+        "process": [
+          "Logistics and transportation fundamentals",
+          "Principles of working as a broker",
+          "International freight transportation systems",
+          "Documents and contracts",
+          "Practical work and certification"
+        ],
+        "keyFeatures": [
+          "Study of international logistics systems",
+          "Hands-on practice and certification",
+          "Career support"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Video Editing and Special Effects",
+        "description": "Learn video editing, special effects, and animation using Adobe Premiere Pro and After Effects.",
+        "duration": "6 months",
+        "instructor": {
+          "name": "Smirnova Nadya",
+          "bio": "A professional video editor and animator."
+        },
+        "rating": 4.9,
+        "reviews": 150,
+        "price": "$580",
+        "process": [
+          "Video editing and shot composition",
+          "Working with Adobe Premiere Pro",
+          "After Effects and visual effects",
+          "Color correction and sound design",
+          "Creating a professional editing project"
+        ],
+        "keyFeatures": [
+          "Working on professional projects",
+          "Certificate and career support",
+          "Personal consultations with mentors"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Marketing",
+        "description": "Basics of digital marketing, SEO, SEM, and social media marketing.",
+        "duration": "4 months",
+        "instructor": {
+          "name": "Andrey Kuznetsov",
+          "bio": "A marketing specialist with 10 years of experience."
+        },
+        "rating": 4.9,
+        "reviews": 100,
+        "price": "$500",
+        "process": [
+          "Basics of digital marketing",
+          "SEO and SEM",
+          "Social Media Marketing",
+          "Email marketing strategies",
+          "Marketing technologies and tools"
+        ],
+        "keyFeatures": [
+          "Learning through hands-on practice",
+          "Career support in marketing",
+          "Obtaining a certificate"
+        ]
+      }
+    ],
+    "teachers": [
+      {
+        "name": "Ivanov Nikolai",
+        "title": "Programming Instructor",
+        "job_icon": "Dasturlash.png"
+      },
+      {
+        "name": "Kamilova Nargiza",
+        "title": "Design Instructor",
+        "job_icon": "Dizayn.png"
+      },
+      {
+        "name": "Jorayev Akbar",
+        "title": "Logistics Instructor",
+        "job_icon": "Logstika.png"
+      },
+      {
+        "name": "Daniil Andrev",
+        "title": "Marketing Instructor",
+        "job_icon": "Marketing.png"
+      },
+      {
+        "name": "Smirnova Nadya",
+        "title": "Video Editing Instructor",
+        "job_icon": "Dizayn2.png"
+      },
+      {
+        "name": "Andrey Kuznetsov",
+        "title": "Marketing Instructor",
+        "job_icon": "Marketing.png"
+      },
+      {
+        "name": "Dimitri Grichka",
+        "title": "Marketing Instructor",
+        "job_icon": "Dasturlash.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Renaissance Academy?",
+        "answer": "An educational center providing knowledge in modern fields."
+      },
+      {
+        "question": "What does my membership include?",
+        "answer": "Additional courses and materials."
+      },
+      {
+        "question": "What can I learn?",
+        "answer": "Programming, design, marketing, and other IT fields."
+      },
+      {
+        "question": "What happens after my trial ends?",
+        "answer": "You will be admitted to the course based on your results."
+      },
+      {
+        "question": "Can I teach at Renaissance Academy?",
+        "answer": "Yes, if you are a qualified specialist."
+      }
+    ],
+    "form": {
+      "title": "We will help you choose!",
+      "description": "If you have any questions about the course or don't know what to choose, leave your number - we will answer all your questions.",
+      "fields": [
+        { "name": "Your Name" },
+        { "name": "Your Phone Number", "prefix": "+998" },
+        { "name": "Your Email" }
+      ],
+      "submit": "Submit"
+    }
+  }

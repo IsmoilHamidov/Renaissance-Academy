@@ -28,10 +28,10 @@ function Footer() {
           </div>
 
           <div className='h-auto w-auto lg:w-full flex gap-y-4 lg:gap-y-0 gap-x-4 lg:gap-x-0 flex-wrap justify-between mt-3 lg:mt-0 text-lighter-black'>
-            <a href='#' className='cursor-pointer HoverText'>Facebook</a>
-            <a href='#' className='cursor-pointer HoverText'>Twitter</a>
-            <a href='#' className='cursor-pointer HoverText'>Telegram</a>
-            <a href='#' className='cursor-pointer HoverText'>Instagram</a>
+            <a href='https://www.facebook.com/'target="_blank" rel="noopener noreferrer" className='cursor-pointer HoverText'>Facebook</a>
+            <a href='https://x.com/?lang=ru' target="_blank" rel="noopener noreferrer"className='cursor-pointer HoverText'>Twitter</a>
+            <a href='https://telegram.org/' target="_blank" rel="noopener noreferrer" className='cursor-pointer HoverText'>Telegram</a>
+            <a href='https://www.instagram.com/' target="_blank" rel="noopener noreferrer" className='cursor-pointer HoverText'>Instagram</a>
           </div>
         </div>
       </div>

@@ -3,10 +3,13 @@ import like from '../assets/like.png';
 import star from '../assets/medal-star.png';
 import Frame1 from '../assets/Frame1.png';
 import Frame2 from '../assets/Frame2.png';
+import { useTranslation } from "react-i18next";
 
 function AboutUs() {
+  const { t } = useTranslation();
   return (
     <div className='mt-12 md:mt-20' id='AboutUs'>
+
       <h3 className="text-title-size font-semibold leading-normal text-lighter-black mb-8">
         About Us
       </h3>

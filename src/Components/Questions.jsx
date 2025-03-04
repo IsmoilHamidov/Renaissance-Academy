@@ -28,7 +28,7 @@ export default function Questions() {
                         </span>
                     </div>
                     {openQuestionIndex === index && (
-                        <p className="mt-3 text-dark-blue font-semibold text-[18px]">
+                        <p className="mt-3 text-dark-blue font-semibold text-[18px] w-[97%]">
                             {item.answer}
                         </p>
                     )}

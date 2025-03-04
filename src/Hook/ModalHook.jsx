@@ -8,7 +8,10 @@ function Modal({ isOpen, onClose }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsSubmitted(true); // Show success message
+    setIsSubmitted(true); 
+    setTimeout(() => {
+      window.location.reload();
+    }, 2500);
   };
 
   return (

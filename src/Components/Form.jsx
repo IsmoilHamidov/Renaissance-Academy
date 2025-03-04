@@ -8,7 +8,11 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitted(true); 
-  };
+    setTimeout(() => {
+        window.location.reload();
+    }, 2500);
+};
+
 
   return (
     <div className='mt-20'>

@@ -12,21 +12,21 @@ function Course() {
         The Courses We Teach
       </h3>
       <div className="flex flex-col gap-y-6 lg:gap-y-0 md:flex-row flex-wrap justify-between">
-        <div className="lg:w-[76%] flex flex-wrap justify-center md:justify-between gap-y-6">
+        <div className="lg:w-[76%] flex flex-wrap justify-center md:justify-between gap-y-7">
           {Courses.slice(0, 4).map((course) => (
             <div
               key={course.id}
               data-aos="zoom-in"
-              className={`h-[15.5rem] md:h-[17rem] relative rounded-[45px] overflow-hidden ${
+              className={`h-[15.7rem] sm:h-[16.5rem] md:h-[17rem] relative rounded-[45px] overflow-hidden ${
                 course.id === 1 || course.id === 3 ? 'w-11/12 md:w-[40%]' : 'w-11/12 md:w-[57%]'
               }`}
             >
               <img src={course.Img} alt={course.text} className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-7">
-                <p className="text-white text-2xl font-semibold tracking-[1px] leading-[1.9rem]">{course.text}</p>
+              <div className=" absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end items-center md:items-start  p-7">
+                <p className="text-center md:text-start text-white text-2xl font-semibold tracking-[1px] leading-[1.9rem]">{course.text}</p>
                 <button
                   onClick={() => navigate(`/eachCourse/${course.id}`)}
-                  className="w-full mb-1 mt-4 md:w-[8.2rem] inline-flex justify-center items-center gap-2 py-[5px] lg:py-[9px] bg-dark-blue text-white rounded-xl text-base md:text-sm group hover:bg-[#1067cc] ease-in duration-150"
+                  className=" w-2/3 mb-1 mt-4 md:w-[8.2rem] rounded-2xl md:rounded-xl inline-flex justify-center items-center gap-2 py-[6px] lg:py-[9px] bg-dark-blue text-white  text-base md:text-sm group hover:bg-[#1067cc] ease-in duration-150"
                 >
                   More Details
                   <img className="hidden md:block transition-transform transform duration-200 ease-out group-hover:translate-x-1" src={arrowRight} alt="" />
@@ -39,11 +39,11 @@ function Course() {
         <div className="w-full lg:w-[22%] h-auto flex flex-col md:flex-row lg:flex-col flex-wrap gap-y-6 lg:gap-y-0 items-center justify-center md:justify-between">
           <div data-aos="zoom-in-left" className="h-[15.5rem] lg:h-[20.2rem] w-11/12 md:w-1/2 lg:w-full relative rounded-[45px] overflow-hidden">
             <img src={Courses[4].Img} alt="Marketing" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-7">
-              <p className="text-white text-2xl font-semibold tracking-[1px] leading-[1.9rem]">Marketing</p>
+            <div className=" absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end items-center md:items-start  p-7">
+              <p className="text-center md:text-start text-white text-2xl font-semibold tracking-[1px] leading-[1.9rem]">Marketing</p>
               <button
                 onClick={() => navigate(`/eachCourse/${Courses[4].id}`)}
-                className="w-full mb-1 mt-4 md:w-[8.2rem] inline-flex justify-center items-center gap-2 py-[5px] lg:py-[9px] bg-dark-blue text-white rounded-xl text-base md:text-sm group hover:bg-[#1067cc] ease-in duration-300"
+                className=" w-2/3 mb-1 mt-4 md:w-[8.2rem] rounded-2xl md:rounded-xl inline-flex justify-center items-center gap-2 py-[6px] lg:py-[9px] bg-dark-blue text-white  text-base md:text-sm group hover:bg-[#1067cc] ease-in duration-150"
               >
                 More Details
                 <img className="hidden md:block transition-transform transform duration-300 ease-out group-hover:translate-x-2" src={arrowRight} alt="" />
